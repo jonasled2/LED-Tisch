@@ -47,8 +47,8 @@ Aufbau:
     Datenrichtung beachten (Heißkleber) (S-Layout verwenden)
     ![Layout](https://github.com/Schildkroete1/LED-Tisch/blob/master/Bilder/layout.jpg?raw=true "Layout")
 
--   Arduino anschließen (siehe unter Bildern schaltplan.png bzw
-    Schaltplan.fzz)
+-   Arduino anschließen (siehe Schaltplan.fzz)
+![Layout](https://github.com/Schildkroete1/LED-Tisch/blob/master/Bilder/Schaltplan_Steckplatine.png?raw=true "Layout")
 
     -   HC-05:
 
@@ -64,7 +64,8 @@ Aufbau:
 
     -   SD:
 
-        -   Siehe Bild SD.png
+        ![Layout](https://github.com/Schildkroete1/LED-Tisch/blob/master/Bilder/SD.png?raw=true "Layout")
+
 
     -   Taster:
 
