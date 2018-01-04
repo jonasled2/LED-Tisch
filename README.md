@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-**[LED TISCH]{.underline}**
+# LED-Tisch
 
->>>>>>> 2b5eb758f31e7173a7408fc123ced3df3779e4fb
+
 Materialien:
 ============
 
@@ -152,6 +149,4 @@ Programm im Loop abspielen:
 -   Zum Verlassen des Loop modes den Taster drücken
 
 -   Die LED sollte ausgehen.
-=======
-# LED-Tisch
->>>>>>> b1d9c101f99e910f1759ff5c97083035fe7dbb54
+
