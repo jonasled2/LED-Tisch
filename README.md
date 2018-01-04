@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-#LED-TISCH
-=======
 # LED-Tisch
 
->>>>>>> 9b2649fb737977adde75015faab765705c203e8b
 
 Materialien:
 ============
@@ -48,8 +44,8 @@ Aufbau:
     Hand)(22stck)
 
 -   LED Streifen an zusammengesteckte Matrix kleben, dabei die
-    Datenrichtung beachten (Heißkleber) (S-Layout verwenden (siehe unter
-    Bilder layout.png))
+    Datenrichtung beachten (Heißkleber) (S-Layout verwenden)
+    ![Layout](https://github.com/Schildkroete1/LED-Tisch/blob/master/Bilder/layout.jpg?raw=true "Layout")
 
 -   Arduino anschließen (siehe unter Bildern schaltplan.png bzw
     Schaltplan.fzz)
