@@ -1,3 +1,5 @@
+#LED-TISCH
+
 Materialien:
 ============
 
@@ -23,7 +25,6 @@ Materialien:
 
 -   Wiederstand (300 -- 500 Ohm)
 
--   
 
 Aufbau:
 =======
@@ -89,6 +90,7 @@ Aufbau:
 -   Zum Testen der LEDs und der SDs die Beispielprogramme der SD und
     FastLED Bibilothek verwenden
 
+	
 Inbetriebnahme:
 ===============
 
@@ -106,6 +108,7 @@ Inbetriebnahme:
 
 -   In den Geräteeinstellungen mit dem Gerät HC-05 verbinden.
 
+
 Animation abspielen:
 ====================
 
@@ -114,6 +117,7 @@ Animation abspielen:
 -   Passendes Programm auswählen
 
 -   Auf Ausführen klicken
+
 
 Geschwindigkeit ändern:
 =======================
@@ -128,6 +132,7 @@ Geschwindigkeit ändern:
     per second) eingeben
 
 -   Auf OK klicken
+
 
 Programm im Loop abspielen:
 ===========================
@@ -146,6 +151,4 @@ Programm im Loop abspielen:
 -   Zum Verlassen des Loop modes den Taster drücken
 
 -   Die LED sollte ausgehen.
-=======
-# LED-Tisch
->>>>>>> b1d9c101f99e910f1759ff5c97083035fe7dbb54
+
