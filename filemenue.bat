@@ -1,0 +1,1 @@
+ls *.dat > list.txt
