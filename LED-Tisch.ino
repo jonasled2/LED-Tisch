@@ -96,17 +96,28 @@ void loop()
     }
   }
   if(btSerial.available() > 0) {
+    delay(100);
     string = btSerial.readString();
+    Serial.println(string);
     if (string.toInt() == 0){
-      fxdata = SD.open(string);
-      Serial.println(string);
-      spiele();
-      while (wiederholen){
+      if (string == "loop"){
+        if (!wiederholen){
+          wiederholen = true;
+          digitalWrite(9, HIGH);
+        } else {
+          wiederholen = false;
+          digitalWrite(9, LOW);
+        }
+      } else {
         fxdata = SD.open(string);
         spiele();
-      }
-      btSerial.println("OK");
-    } else {
+        while (wiederholen){
+          fxdata = SD.open(string);
+          spiele();
+        }
+        btSerial.println("OK");
+      } 
+    }else {
       Serial.println(Speed);
       Speed = 1000 / string.toInt();
     }
