@@ -105,6 +105,7 @@ void loop()
         fxdata = SD.open(string);
         spiele();
       }
+      btSerial.println("OK");
     } else {
       Serial.println(Speed);
       Speed = 1000 / string.toInt();
